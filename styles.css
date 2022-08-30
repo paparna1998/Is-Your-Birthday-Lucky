@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --color-primary: #2e2e2a;
+  --color-secondary: #a475f7;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  /* text-align: center; */
+  padding: 2rem;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+input,
+label {
+  display: block;
+  /* margin: auto; */
+  width: 100%;
+}
+#birth-date {
+  margin-top: 1rem;
+}
+.date {
+  padding: 1rem;
+}
+
+.favourite-number {
+  padding: 1rem;
+  /* margin: 1rem; */
+  margin-top: 1rem;
+}
+
+.favourite-number input {
+  margin-top: 1rem;
+}
+
+#btn-check {
+  background-color: var(--color-secondary);
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#btn-check:hover,
+#btn-check:active {
+  background-color: #965ef7;
+  border-color: var(--color-secondary);
+  border-width: 0.5rem;
+}
+
+.output-message {
+  /* display: block; */
+  text-align: center;
+  width: 100%;
+}
